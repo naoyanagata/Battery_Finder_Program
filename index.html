@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Battery Finder Program</title>
+</head>
+<body>
+  <header>
+    <h1>Battery Finder Program</h1>
+  </header>
+  <main>
+    <div class="main-container">
+      <div class="select">
+        <p>ブランドを選択</p>
+        <select name="brand" id="select-brand">
+        </select>
+        <p>モデルを選択</p>
+        <select name="model" id="select-model">
+          
+        </select>
+        <p>その他アクセサリー類を接続する場合はその合計W数を入力してください</p>
+        <input type="number" min="0" max="100"> W
+      </div>
+      <p>使用可能なバッテリーはこちら↓です</p>
+      <div class="result">
+      </div>
+    </div>
+  </main>
+  
+  <script src="app.js"></script>
+</body>
+</html>
